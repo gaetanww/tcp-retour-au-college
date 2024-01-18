@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tcp-retour-au-college"
+version = "0.1.0"
+description = ""
+authors = ["gaetanww <gaetan.wattiau@decentriq.ch>"]
+readme = "README.md"
+packages = [{include = "tcp_retour_au_college"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
